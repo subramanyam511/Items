@@ -12,38 +12,34 @@ import javax.persistence.Id;
 
 public class Items {
 	@Id
-	private String Id;
-	private String Name;
-	private String Category;
-	private Integer price;
+	private String id;
+	private String name;
+	private String category;
+	private String price;
 	public String getId() {
-		return Id;
+		return id;
 	}
 	public void setId(String id) {
-		Id = id;
+		this.id = id;
 	}
 	public String getName() {
-		return Name;
+		return name;
 	}
 	public void setName(String name) {
-		Name = name;
+		this.name = name;
 	}
 	public String getCategory() {
-		return Category;
+		return category;
 	}
 	public void setCategory(String category) {
-		Category = category;
+		this.category = category;
 	}
-	public Integer getPrice() {
+	public String getPrice() {
 		return price;
 	}
-	public void setPrice(Integer price) {
+	public void setPrice(String price) {
 		this.price = price;
 	}
-	
-	
-	
-	
 	
 	
 
